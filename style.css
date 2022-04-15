@@ -38,16 +38,17 @@ body{
     cursor: pointer;
     transition: .3s;
 }
+
 .container .rates .rate:hover{
     background-color: #f5781b;
     color: white;
 }
-.container .summery{}
+
 .container .summery .text{
     color: #818892;
     font-weight: bold;
 }
-.container .summery .title{}
+
 .container .icon{
     padding: 12px;
     background-color: rgba(255, 255, 255, .1);
@@ -88,7 +89,7 @@ body{
     border-radius: 50px;
     font-size: .8em;
 }
-.container .text-container{}
+
 .container .text-container .title2{
     padding-top: 10px;
 
