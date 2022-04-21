@@ -4,5 +4,5 @@ result.innerHTML = sessionStorage.getItem("selectedItem");
 // console.log(sessionStorage.getItem("selectedItem"));
 if (sessionStorage.getItem("selectedItem") !== null) {
   var selectedItem = JSON.parse(sessionStorage.getItem("selectedItem"));
-  cnsole.log(selectedItem);
+  console.log(selectedItem);
 }
