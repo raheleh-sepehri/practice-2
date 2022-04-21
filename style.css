@@ -5,6 +5,7 @@
 *{
     box-sizing: border-box;
     font-family: font;
+    text-decoration: none;
 }
 body{
     display: flex;
@@ -43,7 +44,10 @@ body{
     background-color: #f5781b;
     color: white;
 }
-
+.container .rates .rate:focus{
+    background-color: #f5781b !important;
+    color: white !important;
+}
 .container .summery .text{
     color: #818892;
     font-weight: bold;
@@ -59,8 +63,8 @@ body{
 .container .button{
     margin: 0 auto;
     padding: 10px 30px;
-    border: 0;
-    outline: 0;
+    border: none !important;
+    outline: none;
     background-color: #f5781b;
     color: white;
     display: block;
