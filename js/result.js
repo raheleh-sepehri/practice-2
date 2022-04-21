@@ -1,3 +1,3 @@
 const result = document.querySelector("#selected");
 
-result.innerHTML = sessionStorage.getItem("selectedItem");
+result.innerHTML = sessionStorage.getItem("selectedItem", _self);
