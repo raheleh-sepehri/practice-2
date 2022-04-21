@@ -16,6 +16,6 @@ btn.addEventListener("click", () => {
   console.log(sessionStorage.getItem("selectedItem"));
   if (sessionStorage.getItem("selectedItem") === null) {
     alert("select a number");
-    btn.href = "http://127.0.0.1:5500/index.html";
+    btn.href = "https://raheleh-sepehri.github.io/practice-2/";
   }
 });
